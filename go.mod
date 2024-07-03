@@ -1,4 +1,4 @@
-module cart
+module github.com/orormaybe/cart
 
 go 1.22
 

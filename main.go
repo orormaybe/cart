@@ -1,11 +1,6 @@
 package main
 
 import (
-	"cart/common"
-	"cart/domain/repository"
-	service2 "cart/domain/service"
-	"cart/handler"
-	pb "cart/proto"
 	"fmt"
 	"github.com/go-micro/plugins/v4/registry/consul"
 	ratelimit "github.com/go-micro/plugins/v4/wrapper/ratelimiter/uber"
@@ -13,6 +8,11 @@ import (
 	"github.com/jinzhu/gorm"
 	"github.com/opentracing/opentracing-go"
 	"github.com/opentracing/opentracing-go/log"
+	"github.com/orormaybe/cart/common"
+	"github.com/orormaybe/cart/domain/repository"
+	service2 "github.com/orormaybe/cart/domain/service"
+	"github.com/orormaybe/cart/handler"
+	pb "github.com/orormaybe/cart/proto"
 	"go-micro.dev/v4/registry"
 
 	"go-micro.dev/v4"

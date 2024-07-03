@@ -1,10 +1,10 @@
 package repository
 
 import (
-	"cart/domain/model"
 	"errors"
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/mysql"
+	"github.com/orormaybe/cart/domain/model"
 )
 
 type ICartRepository interface {
